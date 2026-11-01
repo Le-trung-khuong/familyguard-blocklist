@@ -1,0 +1,4 @@
+# Domain KHÔNG được chặn (kể cả subdomain), dù có trong StevenBlack. Một domain mỗi dòng.
+# Ví dụ nếu một trang học tập bị chặn nhầm thì thêm vào đây rồi chạy lại script.
+# Lưu ý: script chỉ THÊM vào blacklist, nên domain đã lỡ nạp chỉ biến mất sau khi restart service
+# (hoặc xóa bằng REMOVE_BLACKLIST). Sau khi sửa file này, cần restart familyguard.service rồi nạp lại.

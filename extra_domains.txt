@@ -1,0 +1,20 @@
+# Domain gốc bổ sung để chặn APP TikTok (không nằm trong StevenBlack).
+# Server khớp cả subdomain, nên chỉ cần domain gốc: byteoversea.com đã phủ *.byteoversea.com.
+# Một domain mỗi dòng, '#' là chú thích.
+#
+# 4 domain đầu do chính nhóm đã quan sát. Các dòng sau là DỰ ĐOÁN, cần kiểm chứng:
+# mở app TikTok trên điện thoại qua WireGuard rồi xem journal (DNS_QUERY) để biết domain thật,
+# sau đó thêm/bớt ở đây.
+tiktok.com
+tiktokv.com
+byteoversea.com
+ibytedtos.com
+musical.ly
+# Dự đoán (chưa xác minh bằng log thật):
+tiktokcdn.com
+tiktokcdn-us.com
+ibyteimg.com
+byteimg.com
+muscdn.com
+# Cẩn thận: chặn bytedance.com có thể làm hỏng cả CapCut/Lark. Bỏ dấu # nếu chấp nhận.
+# bytedance.com
